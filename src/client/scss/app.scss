@@ -10,15 +10,13 @@ $dark: #343a40;
 
 // Then add them to your custom theme-colors map, together with any additional colors you might need
 $theme-colors: (
-	primary: $primary,
-	secondary: $secondary,
-	success: $success,
-	info: $info,
-	warning: $warning,
-	danger: $danger,
-	light: $light,
-	dark: $dark,
-	// add any additional color below
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+  // add any additional color below
 );
-
-@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
