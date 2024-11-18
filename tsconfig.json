@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./public/js/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react-jsxdev",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2020", "dom"]
+  },
+  "include": ["src/client/**/*"],
+  "exclude": ["node_modules"]
+}
